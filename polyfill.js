@@ -27,7 +27,7 @@
   }
   var version = null,
     url = null, 
-    kdprefix = 'https://static.kuaiduizuoye.com/product/kdzy/polyfills/',
+    kdprefix = '',
     polyfillio = 'https://cdn.polyfill.io/v3/polyfill.min.js';
   if (/iphone/i.test(ua) || /ipad/i.test(ua)) {
     version = getiOSVersion(ua);
